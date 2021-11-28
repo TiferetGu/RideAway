@@ -1,0 +1,13 @@
+<div class="thanks">
+    <img routerLink="../../" routerLinkActive="active" src="../../assets/Thanks.png" alt="thanks for your feedback"
+        *ngIf="timeisup()==1">
+    <div  *ngIf="timeisup()==2">
+        <img class="imgmsg"routerLink="../../" routerLinkActive="active" src="../../assets/message.png" alt="thanks for your feedback">
+        <p class="msg">.כבר תיקפת ב-5 הדקות האחרונות. פנייתך שמורה במערכת <br> .יש לתקף שנית רק אם זמן ההמתנה ארוך, או עם סיבה משמעותית
+            <br>  .לתשומת הלב, תיקוף שלישי בתוך 10 דקות ינעל את המשתמש למשך שעה  </p>
+           
+
+    </div>
+    <!-- <p class="ps">.שים לב שהתיקוף במערכת לא פוטרת אותך מלתקף את הרב קו באוטובוס*</p> -->
+    <!-- <img routerLink="../../" routerLinkActive="active" src="../../assets/message.png" alt="thanks for your feedback" *ngIf="timeisup()==3"> -->
+</div>

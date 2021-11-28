@@ -1,0 +1,31 @@
+.numKeypadBox {
+    width: 100%;
+    float: left;
+    border: 2px solid black;
+}
+
+.numKeypad {
+    position: relative;
+    width: 212px;
+    padding: 2px;
+    display: inline-block;
+    /* border: 2px solid black; */
+}
+
+.numKey {
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin: 2px;
+    color: white;
+    border-radius: 5px;
+    background-color: #8BC63E;
+    line-height: 64px;
+    box-sizing: border-box;
+    /* border: 2px solid black; */
+
+}
+
+.numKey hover {
+    box-shadow: 2px 2px 5px gray;
+}

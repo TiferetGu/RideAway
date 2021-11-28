@@ -1,0 +1,220 @@
+<div class="chart" style="display: block">
+    <canvas mdbChart data-mdb-toggle="modal" data-mdb-target="#exampleModal" [chartType]="chartType"
+        [datasets]="chartDatasets" [labels]="chartLabels" [colors]="chartColors" [options]="chartOptions"
+        [legend]="true" (chartHover)="chartHovered($event)" (chartClick)="chartClicked(basicModal,$event)">
+    </canvas>
+    <!-- <div class="ss" *ngIf="display"><img  src="../../../assets/חלונית פופאפ של ממתינים.png"></div> -->
+</div>
+
+
+
+<!-- modal סילשתי-->
+<div mdbModal #basicModal="mdbModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="BasicModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close pull-right" aria-label="Close" (click)="basicModal.hide()">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title w-100 title" id="myModalLabel">רשימת הממתינים</h4>
+            </div>
+            <div class="modal-body">
+
+                <!--מסולש <button (click) = graphModal.show()>הצגת גרף שכיחות מצטברת</button> -->
+                <table mdbTable bordered="true" class="at">
+                    <thead>
+                        <tr>
+                            <th *ngFor="let head of headElements" scope="col">{{head}} </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr mdbTableCol *ngFor="let el of elements">
+                            <th scope="row">{{el.headElements}}</th>
+                            <td>{{el.first}}</td>
+                            <td>{{el.second}}</td>
+                            <td>{{el.last}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="modal-footer">
+                <!-- <button type="button" mdbBtn color="secondary" class="waves-light" aria-label="Close" (click)="basicModal.hide()" mdbWavesEffect>Close</button> -->
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<button type="button" mdbBtn class="relative waves-light newMessage" (click)="mybasicModal.show()" mdbWavesEffect>+ הפצת
+    הודעה</button>
+<button type="button" mdbBtn class="relative waves-light newMessage" (click)="tableModal.show()" mdbWavesEffect>לתצוגת
+    טבלה</button>
+
+<div mdbModal #mybasicModal="mdbModal" class="modal fade " tabindex="-1" role="dialog"
+    aria-labelledby="myBasicModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close pull-right" aria-label="Close" (click)="mybasicModal.hide()">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title w-100 title" id="myModalLabel">הפצת הודעה</h4>
+            </div>
+            <div class="modal-body">
+                <div>
+                    <textarea placeholder="...הקלד הודעה"></textarea>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" mdbBtn class="relative waves-light newMessage send"
+                        (click)="mybasicModal.hide()" mdbWavesEffect>שליחה</button>
+                    <button type="button" mdbBtn class="waves-light newMessage" aria-label="Close"
+                        (click)="mybasicModal.hide()" mdbWavesEffect>ביטול</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- <div mdbModal #graphModal="mdbModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="graphModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close pull-right" aria-label="Close" (click)="graphModal.hide()">
+            <span aria-hidden="true">×</span>
+          </button>
+          <h4 class="modal-title w-100" id="myModalLabel">הצגת גרף</h4>
+        </div>
+        <div class="modal-body">
+            <div style="display: block">
+                <canvas mdbChart
+                    [chartType]="chartType1"
+                    [datasets]="chartDatasets1"
+                    [labels]="chartLabels1"
+                    [colors]="chartColors1"
+                    [options]="chartOptions1"
+                    [legend]="true"
+                    (chartHover)="chartHovered1($event)"
+                    (chartClick)="chartClicked1($event)">
+                </canvas>
+              </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" mdbBtn color="secondary" class="waves-light" aria-label="Close" (click)="graphModal.hide()" mdbWavesEffect>סגור</button>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+
+<div style="overflow-y: scroll;" mdbModal #tableModal="mdbModal" class="modal fade top" tabindex="-1" role="dialog"
+    aria-labelledby="tableModalLabel" aria-hidden="true" data-mdb-backdrop="true" data-mdb-keyboard="true">
+    <div class="modal-dialog modal-fluid" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close pull-right" aria-label="Close" (click)="tableModal.hide()">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title w-100 title" id="myModalLabel">רשימת הממתינים</h4>
+            </div>
+            <div class="modal-body">
+                <label>:סנן לפי</label><br>
+                <button class="filterBtn" (click)=showTable(tableModal,$event)>הכל</button>
+                <button class="filterBtn" (click)=showTable(tableModal,$event)>סיבה</button>
+                <button class="filterBtn" (click)=showTable(tableModal,$event)>מינימום דקות המתנה</button>
+                <div *ngIf="min">
+                    <button class="filterBtn" (click)="submit(placeId)">אישור</button>
+                    <input  type="number" id="inp" placeholder="הכנס זמן המתנה בדקות" [(ngModel)]="placeId">
+
+                </div>
+
+                
+                <!-- Group of default radios - option 1 -->
+                <!-- <div *ngIf="reason" class="custom-control custom-radio">
+                    <input type="radio" class="custom-control-input" id="defaultGroupExample1"
+                        name="groupOfDefaultRadios">
+                    <label class="custom-control-label" for="defaultGroupExample1">האוטובוס לא הגיע</label>
+                </div>
+
+                <div *ngIf="reason" class="custom-control custom-radio">
+                    <input type="radio" class="custom-control-input" id="defaultGroupExample1"
+                        name="groupOfDefaultRadios">
+                    <label class="custom-control-label" for="defaultGroupExample1">האוטובוס חלף על פני התחנה ולא עצר</label>
+                </div> -->
+
+                <!-- Group of default radios - option 2 -->
+                <!-- <div *ngIf="reason" class="custom-control custom-radio">
+                    <input type="radio" class="custom-control-input" id="defaultGroupExample2"
+                        name="groupOfDefaultRadios" checked>
+                    <label class="custom-control-label" for="defaultGroupExample2">האוטובוס היה עמוס, לא הצלחתי לעלות</label>
+                </div> -->
+
+                <!-- Group of default radios - option 3 -->
+                <!-- <div *ngIf="reason" class="custom-control custom-radio">
+                    <input type="radio" class="custom-control-input" id="defaultGroupExample3"
+                        name="groupOfDefaultRadios">
+                    <label class="custom-control-label" for="defaultGroupExample3">סיבת עיכוב אישית. אינה תלויה במערך התחבורה</label>
+                </div> -->
+                <div>
+                    <table *ngIf="all" class="table" mdbTable bordered="true">
+                        <thead>
+                            <tr>
+                                <th *ngFor="let head of tableheadElements" scope="col">{{head}} </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr mdbTableCol *ngFor="let el of tableelements">
+                                <th scope="row">{{el.headElements}}</th>
+                                <td>{{el.first}}</td>
+                                <td>{{el.second}}</td>
+                                <td>{{el.last}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table *ngIf="reason" class="table" mdbTable bordered="true">
+                        <thead>
+                            <tr>
+                                <th *ngFor="let head of tableheadElements" scope="col">{{head}} </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr mdbTableCol *ngFor="let el of reasontableelements">
+                                <th scope="row">{{el.headElements}}</th>
+                                <td>{{el.first}}</td>
+                                <td>{{el.second}}</td>
+                                <td>{{el.last}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table *ngIf="num" class="table" mdbTable bordered="true">
+                        <thead>
+                            <tr>
+                                <th *ngFor="let head of tableheadElements" scope="col">{{head}} </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr mdbTableCol *ngFor="let el of mintableelements">
+                                <th scope="row">{{el.headElements}}</th>
+                                <td>{{el.first}}</td>
+                                <td>{{el.second}}</td>
+                                <td>{{el.last}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                
+
+
+
+                </div>
+            </div>
+            <!-- <div class="modal-footer">
+          <button type="button" mdbBtn color="secondary" class="waves-light" aria-label="Close" (click)="basicModal.hide()" mdbWavesEffect>Close</button>
+        </div> -->
+        </div>
+    </div>
+</div>
+
+<img class="logo" src="../../../assets/לוגו (1).png">

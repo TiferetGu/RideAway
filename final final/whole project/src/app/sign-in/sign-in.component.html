@@ -1,0 +1,17 @@
+    <h4 style="font-family: 'ploni-bold-aaa';">
+    :בשביל הזיהוי בחר מאחת האופציות הבאות
+</h4>
+<div class="float-container">
+   <label class="float-child1" >
+        <input type="text" [(ngModel)]="service.tz" #tz>
+        <!-- {{tz}} -->
+   </label>
+   <div class="float-child2" >
+      
+   </div>
+</div>
+<router-outlet></router-outlet>
+<button class="btn btn-light  okbtn" (click)="nav()">
+הבא
+</button> 
+

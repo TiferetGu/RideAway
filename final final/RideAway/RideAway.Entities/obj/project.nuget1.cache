@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "LVC/DgvRkOckyfsXGiVkr1jFW246bUkELESPZeupX3y4opS/CMbynTfKybaQuvMeU3+9n5iYMRG+dAqyIleftA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\1\\Desktop\\BusTop\\RideAway-main\\RideAway\\RideAway.Entities\\RideAway.Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\1\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}

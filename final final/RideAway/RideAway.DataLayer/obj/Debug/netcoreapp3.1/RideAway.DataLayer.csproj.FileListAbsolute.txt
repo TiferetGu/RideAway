@@ -1,0 +1,7 @@
+C:\Users\1\Desktop\BusTop\RideAway-main\RideAway\RideAway.DataLayer\bin\Debug\netcoreapp3.1\RideAway.DataLayer.deps.json
+C:\Users\1\Desktop\BusTop\RideAway-main\RideAway\RideAway.DataLayer\bin\Debug\netcoreapp3.1\RideAway.DataLayer.dll
+C:\Users\1\Desktop\BusTop\RideAway-main\RideAway\RideAway.DataLayer\obj\Debug\netcoreapp3.1\RideAway.DataLayer.csprojAssemblyReference.cache
+C:\Users\1\Desktop\BusTop\RideAway-main\RideAway\RideAway.DataLayer\obj\Debug\netcoreapp3.1\RideAway.DataLayer.AssemblyInfoInputs.cache
+C:\Users\1\Desktop\BusTop\RideAway-main\RideAway\RideAway.DataLayer\obj\Debug\netcoreapp3.1\RideAway.DataLayer.AssemblyInfo.cs
+C:\Users\1\Desktop\BusTop\RideAway-main\RideAway\RideAway.DataLayer\bin\Debug\netcoreapp3.1\RideAway.DataLayer.runtimeconfig.json
+C:\Users\1\Desktop\BusTop\RideAway-main\RideAway\RideAway.DataLayer\bin\Debug\netcoreapp3.1\RideAway.DataLayer.runtimeconfig.dev.json

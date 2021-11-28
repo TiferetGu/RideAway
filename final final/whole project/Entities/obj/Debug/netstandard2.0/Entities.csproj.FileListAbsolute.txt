@@ -1,0 +1,26 @@
+C:\Users\1\Desktop\BusTop\RideAway-main\RideAway\Entities\obj\Debug\netstandard2.0\Entities.csprojAssemblyReference.cache
+C:\Users\1\Desktop\BusTop\RideAway-main\RideAway\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfoInputs.cache
+C:\Users\1\Desktop\BusTop\RideAway-main\RideAway\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfo.cs
+C:\Users\1\Desktop\BusTop\RideAway-main\RideAway\Entities\bin\Debug\netstandard2.0\Entities.deps.json
+C:\Users\1\Desktop\BusTop\RideAway-main\RideAway\Entities\bin\Debug\netstandard2.0\Entities.dll
+C:\Users\1\Desktop\BusTop\RideAway-main\RideAway\Entities\bin\Debug\netstandard2.0\Entities.pdb
+C:\Users\1\Desktop\BusTop\RideAway-main\RideAway\Entities\obj\Debug\netstandard2.0\Entities.dll
+C:\Users\1\Desktop\BusTop\RideAway-main\RideAway\Entities\obj\Debug\netstandard2.0\Entities.pdb
+C:\Users\Tifi\Desktop\whole project\Entities\bin\Debug\netstandard2.0\Entities.deps.json
+C:\Users\Tifi\Desktop\whole project\Entities\bin\Debug\netstandard2.0\Entities.dll
+C:\Users\Tifi\Desktop\whole project\Entities\bin\Debug\netstandard2.0\Entities.pdb
+C:\Users\Tifi\Desktop\whole project\Entities\obj\Debug\netstandard2.0\Entities.csprojAssemblyReference.cache
+C:\Users\Tifi\Desktop\whole project\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfoInputs.cache
+C:\Users\Tifi\Desktop\whole project\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfo.cs
+C:\Users\Tifi\Desktop\whole project\Entities\obj\Debug\netstandard2.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\Tifi\Desktop\whole project\Entities\obj\Debug\netstandard2.0\Entities.dll
+C:\Users\Tifi\Desktop\whole project\Entities\obj\Debug\netstandard2.0\Entities.pdb
+C:\Work\Akathon Ramot\final final\whole project\Entities\bin\Debug\netstandard2.0\Entities.deps.json
+C:\Work\Akathon Ramot\final final\whole project\Entities\bin\Debug\netstandard2.0\Entities.dll
+C:\Work\Akathon Ramot\final final\whole project\Entities\bin\Debug\netstandard2.0\Entities.pdb
+C:\Work\Akathon Ramot\final final\whole project\Entities\obj\Debug\netstandard2.0\Entities.csprojAssemblyReference.cache
+C:\Work\Akathon Ramot\final final\whole project\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfoInputs.cache
+C:\Work\Akathon Ramot\final final\whole project\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfo.cs
+C:\Work\Akathon Ramot\final final\whole project\Entities\obj\Debug\netstandard2.0\Entities.csproj.CoreCompileInputs.cache
+C:\Work\Akathon Ramot\final final\whole project\Entities\obj\Debug\netstandard2.0\Entities.dll
+C:\Work\Akathon Ramot\final final\whole project\Entities\obj\Debug\netstandard2.0\Entities.pdb

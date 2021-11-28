@@ -1,0 +1,9 @@
+<div *ngIf="numbers" class="numKeypadBox">
+  <div *ngIf="showNumKeypad" class="numKeypad">
+    <div *ngFor="let n of numbers" class="numKey" (click)="keyPress(n)">
+      {{n}}
+    </div>
+    <div (click)="submit()" class="numKey">אישור</div>
+    <div (click)="keyDelete()" class="numKey">מחיקה</div>
+  </div>
+</div>

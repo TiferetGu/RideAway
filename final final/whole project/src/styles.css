@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+/* @import url('https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css'); */
+*{
+    text-align: center;
+    margin: auto;
+    /* font-family: 'ploni-bold-aaa'; */
+}
+body {
+    /* background-image:url('src\assets\1.2.jpg'); */
+    background-size:contain;
+    /* font-family: 'Dancing Script', cursive!important; */
+}
+
+

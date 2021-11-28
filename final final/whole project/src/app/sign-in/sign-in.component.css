@@ -1,0 +1,63 @@
+.bubble {
+    width: 150px;
+    height: 150px;
+    -webkit-filter: drop-shadow(5px 5px 0px #aaa);
+    filter: drop-shadow(5px 5px 0px #aaa);
+  }
+  .bubble-shape {
+    fill: #1e1;
+  }
+  .shape-text {
+    color: black;
+  }
+  .float-container {
+    position: relative;
+    height: 40vh;
+    width: 100vw;
+    /* border: 3px solid #fff; */
+    padding: 5%;
+    margin-left: 15%;
+    margin-bottom: 0.5%;
+}
+
+.float-child1 {
+  
+    background-image: url("../../assets/tz.png");
+    background-size: contain;
+    width: 25%;
+    height: 145%;
+    float: left;
+    padding: 10%;
+    /* border: 2px solid red; */
+    background-repeat: no-repeat;
+    
+}  
+.float-child2 {
+    background-image: url("../../assets/rk.png");
+    background-size: contain;
+    width: 25%;
+    height: 145%;
+    float: left;
+    padding: 10%;
+    /* border: 2px solid red; */
+    background-repeat: no-repeat;
+}  
+.okbtn {
+    position: absolute;
+    right: 37.5vw;
+    background-color: rgb(144, 202, 249);
+    margin: 5%;
+    height: 10%;
+    width: 16%;
+}
+input[type="text"]{
+  background: transparent;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  float: right;
+  margin-left: 0vh;
+  margin-top: 55%;
+  display: block;
+  /* margin: 0; */
+}

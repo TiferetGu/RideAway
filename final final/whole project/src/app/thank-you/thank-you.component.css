@@ -1,0 +1,18 @@
+img{
+    height: 50%;
+    width: 70%;
+    margin-top: 10%;
+}
+.imgmsg{
+    position: relative;
+}
+.msg{
+    position: absolute;
+    bottom: 46vh;
+    right:32vw;
+    font-size: large;
+}
+.ps{
+    margin-bottom: 0vh;
+    /* margin-left: 0vw; */
+}

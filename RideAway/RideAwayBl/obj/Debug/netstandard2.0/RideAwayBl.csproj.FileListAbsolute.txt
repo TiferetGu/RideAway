@@ -1,8 +1,0 @@
-C:\Users\1\Desktop\BusTop\RideAway\RideAwayBl\bin\Debug\netstandard2.0\RideAwayBl.deps.json
-C:\Users\1\Desktop\BusTop\RideAway\RideAwayBl\bin\Debug\netstandard2.0\RideAwayBl.dll
-C:\Users\1\Desktop\BusTop\RideAway\RideAwayBl\bin\Debug\netstandard2.0\RideAwayBl.pdb
-C:\Users\1\Desktop\BusTop\RideAway\RideAwayBl\obj\Debug\netstandard2.0\RideAwayBl.csprojAssemblyReference.cache
-C:\Users\1\Desktop\BusTop\RideAway\RideAwayBl\obj\Debug\netstandard2.0\RideAwayBl.AssemblyInfoInputs.cache
-C:\Users\1\Desktop\BusTop\RideAway\RideAwayBl\obj\Debug\netstandard2.0\RideAwayBl.AssemblyInfo.cs
-C:\Users\1\Desktop\BusTop\RideAway\RideAwayBl\obj\Debug\netstandard2.0\RideAwayBl.dll
-C:\Users\1\Desktop\BusTop\RideAway\RideAwayBl\obj\Debug\netstandard2.0\RideAwayBl.pdb

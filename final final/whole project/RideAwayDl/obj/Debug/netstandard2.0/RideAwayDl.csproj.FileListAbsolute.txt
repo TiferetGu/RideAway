@@ -1,0 +1,16 @@
+C:\Users\1\Desktop\BusTop\RideAway\RideAwayDl\bin\Debug\netstandard2.0\RideAwayDl.deps.json
+C:\Users\1\Desktop\BusTop\RideAway\RideAwayDl\bin\Debug\netstandard2.0\RideAwayDl.dll
+C:\Users\1\Desktop\BusTop\RideAway\RideAwayDl\bin\Debug\netstandard2.0\RideAwayDl.pdb
+C:\Users\1\Desktop\BusTop\RideAway\RideAwayDl\obj\Debug\netstandard2.0\RideAwayDl.csprojAssemblyReference.cache
+C:\Users\1\Desktop\BusTop\RideAway\RideAwayDl\obj\Debug\netstandard2.0\RideAwayDl.AssemblyInfoInputs.cache
+C:\Users\1\Desktop\BusTop\RideAway\RideAwayDl\obj\Debug\netstandard2.0\RideAwayDl.AssemblyInfo.cs
+C:\Users\1\Desktop\BusTop\RideAway\RideAwayDl\obj\Debug\netstandard2.0\RideAwayDl.dll
+C:\Users\1\Desktop\BusTop\RideAway\RideAwayDl\obj\Debug\netstandard2.0\RideAwayDl.pdb
+C:\Users\1\Desktop\BusTop\RideAway-main\RideAway\RideAwayDl\bin\Debug\netstandard2.0\RideAwayDl.deps.json
+C:\Users\1\Desktop\BusTop\RideAway-main\RideAway\RideAwayDl\bin\Debug\netstandard2.0\RideAwayDl.dll
+C:\Users\1\Desktop\BusTop\RideAway-main\RideAway\RideAwayDl\bin\Debug\netstandard2.0\RideAwayDl.pdb
+C:\Users\1\Desktop\BusTop\RideAway-main\RideAway\RideAwayDl\obj\Debug\netstandard2.0\RideAwayDl.csprojAssemblyReference.cache
+C:\Users\1\Desktop\BusTop\RideAway-main\RideAway\RideAwayDl\obj\Debug\netstandard2.0\RideAwayDl.AssemblyInfoInputs.cache
+C:\Users\1\Desktop\BusTop\RideAway-main\RideAway\RideAwayDl\obj\Debug\netstandard2.0\RideAwayDl.AssemblyInfo.cs
+C:\Users\1\Desktop\BusTop\RideAway-main\RideAway\RideAwayDl\obj\Debug\netstandard2.0\RideAwayDl.dll
+C:\Users\1\Desktop\BusTop\RideAway-main\RideAway\RideAwayDl\obj\Debug\netstandard2.0\RideAwayDl.pdb

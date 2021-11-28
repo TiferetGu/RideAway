@@ -1,0 +1,40 @@
+<head><style type='text/css'>
+    @font-face{
+        font-family: 'asimon';
+        font-weight: 400; /*(regular)*/
+        font-style: normal;
+        src: url('YOUR_FULL_URL_PATH_HERE/asimon-regular-aaa.woff2') format('woff2'),
+            url('YOUR_FULL_URL_PATH_HERE/asimon-regular-aaa.woff') format('woff');
+    }
+    @font-face{
+        font-family: 'asimon';
+        font-weight: 700; /*(bold)*/
+        font-style: normal;
+        src: url('YOUR_FULL_URL_PATH_HERE/asimon-bold-aaa.woff2') format('woff2'),
+            url('YOUR_FULL_URL_PATH_HERE/asimon-bold-aaa.woff') format('woff');
+    }
+    @font-face{
+        font-family: 'asimon';
+        font-weight: 900; /*(black)*/
+        font-style: normal;
+        src: url('YOUR_FULL_URL_PATH_HERE/asimon-black-aaa.woff2') format('woff2'),
+            url('YOUR_FULL_URL_PATH_HERE/asimon-black-aaa.woff') format('woff');
+    }
+    </style></head>
+<div class="delayPage">
+    <div>
+    <img src="../../assets/message.png" class="buobbleImg">
+    <p class="textA">  מסקירת נתונים נמצא כי הנך ממתינ\ה 14 דקות</p>
+    </div>
+    <br>
+    <p class="textB">:נשמח לקבל תגובתך המתאימה</p>
+    <div class="btnsDiv">
+
+<button class="btn btn-light b1"><p>האוטובוס לא הגיע</p></button>
+<button class="btn btn-light b2">האוטובוס חלף על פני התחנה ולא עצר</button>
+<button class="btn btn-light b3">האוטובוס היה עמוס לא הצלחתי לעלות</button>
+<button class="btn btn-light b4">סיבת עיכוב אישית, אינה תלויה במערך התחבורה</button>
+</div>
+<button  class="btn btn-light okbtn" routerLink="../thanks" routerLinkActive="active"  (click)="reset()">אישור</button>
+</div>
+

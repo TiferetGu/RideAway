@@ -1,0 +1,26 @@
+
+.body{
+    /* background-image: linear-gradient(to right top, #990404, #b4002e, #bf0064, #a700ab, #081df6); */
+    color: black;
+    background-color: white;
+    text-align: center;
+    margin-top: 120px;
+}
+
+h1{
+    color: black;
+}
+
+input{
+    border-radius: 8px;
+}
+
+#container-mt-5{
+    text-align: center;
+    right: 500px;
+}
+
+
+#mt-3{
+    display: inline-block;
+}
